@@ -1,10 +1,4 @@
--- Create the database (uncomment if you need to create the database)
--- CREATE DATABASE new_employee_db;
 
--- Connect to the database (this would typically be done before running the script)
--- \c new_employee_db
-
--- Create employees table
 CREATE TABLE IF NOT EXISTS employees (
     emp_id VARCHAR(7) PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
